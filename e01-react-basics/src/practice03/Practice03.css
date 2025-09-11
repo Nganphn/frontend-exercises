@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.counter {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.counterValue {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 20px;
+}
+
+.controls {
+  display: inline-flex;
+  gap: 16px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 6px;
+  padding: 18px 36px;
+  min-width: 220px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  background: #999;
+  cursor: pointer;
+}
+
+.btnInc {
+  background: #f59e0b;
+}
+.btnDec {
+  background: #6a5acd;
+}
