@@ -1,0 +1,32 @@
+#root {
+  max-width: 560px;
+  margin: 24px;
+  display: grid;
+  grid-template-columns: 150px repeat(4, 1fr);
+  column-gap: 12px;
+  row-gap: 12px;
+  align-items: center;
+}
+
+#root > h1 {
+  grid-column: 1 / -1;
+  margin: 0 0 8px;
+}
+
+#root > label {
+  grid-column: 1;
+}
+
+#root > input[type="number"],
+#root > input[readonly] {
+  grid-column: 2 / 6;
+  width: 100%;
+}
+
+#root > button:first-of-type {
+  grid-column: 2;
+}
+
+#root > button {
+  justify-self: start;
+}

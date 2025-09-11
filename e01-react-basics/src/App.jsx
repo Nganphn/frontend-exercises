@@ -1,9 +1,8 @@
-import { useState } from "react";
 import "./App.css";
-import Practice01App from "./ex01/Practice01App.jsx";
+import Practice05App from "./practice05/Practice05App.jsx";
 
 function App() {
-  return <Practice01App />;
+  return <Practice05App />;
 }
 
 export default App;
