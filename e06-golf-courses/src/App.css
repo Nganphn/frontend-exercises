@@ -1,0 +1,59 @@
+.leaflet-container { height: 70vh; }
+
+.course-popup .leaflet-popup-content {
+  margin: 16px 20px;             
+  width: 100%;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.course-popup .cp-img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  margin: 0 0 8px 0;
+  object-fit: cover;
+  max-height: 140px;
+}
+
+.course-popup .cp-title {
+  margin: 0 0 6px 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.course-popup .cp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 6px 0;
+  display: grid;
+  gap: 6px;
+}
+
+.course-popup .cp-list li {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  align-items: start;
+  column-gap: 8px;
+}
+
+.course-popup .cp-list svg {
+  position: relative;
+  top: 2px;                 
+  width: 16px;
+  height: 16px;
+}
+
+.course-popup .cp-list a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.course-popup .cp-intro {
+  margin: 8px 0 0 0;
+  color: #333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
