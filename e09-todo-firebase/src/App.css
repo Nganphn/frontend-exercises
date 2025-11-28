@@ -1,0 +1,157 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f7f5ef;
+  color: #5E4421;
+}
+
+#root {
+  width: 430px;
+  max-width: 95%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 0 20px 20px;
+  margin: 40px auto;
+  border: 1px solid #A9B06555;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+h1 {
+  background-color: #5E4421;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 8px 8px 0 0;
+  margin: 0 -20px 20px;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+
+
+form {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #A9B065;
+  padding: 6px 8px;
+  width: 290px;
+  max-width: 100%;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #fdfcf7;
+  color: #5E4421;
+  outline: none;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #5E4421;
+  box-shadow: 0 0 0 2px rgba(169, 176, 101, 0.25);
+}
+
+input[type="submit"],
+input[type="button"] {
+  border: 1px solid #5E4421;
+  margin-left: 15px;
+  padding: 6px 18px;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #A9B065;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #8f9a55;
+  transform: translateY(-1px);
+}
+
+input[type="submit"]:active,
+input[type="button"]:active {
+  transform: translateY(0);
+}
+
+input[type="button"][value="Logout"] {
+  margin-left: 0;
+  margin-top: 8px;
+}
+
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-form .form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.auth-form label {
+  font-size: 14px;
+  color: #5E4421;
+}
+
+.auth-form .form-actions {
+  margin-top: 4px;
+}
+
+.auth-form .form-actions input[type="submit"] {
+  margin-left: 0;
+}
+
+
+ul {
+  list-style-type: square;
+  margin: 18px 0 12px;
+  padding-left: 20px;
+}
+
+li {
+  color: #5E4421;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+li svg {
+  cursor: pointer;
+  transition: color 0.1s ease, transform 0.1s ease;
+}
+
+li svg:hover {
+  color: #A9B065;
+  transform: scale(1.05);
+}
+
+
+p {
+  margin: 10px 0;
+  font-style: italic;
+  color: #5E4421;
+}
+
+
+span {
+  cursor: pointer;
+  color: #5E4421;
+  font-weight: bold;
+}
