@@ -1,0 +1,16 @@
+{
+"employees" :[
+{"id":1,"firstName":"Lea","lastName":"McDonnell","email":"lmcdonnell0@amazon.de","phone":"163-580-1281","title":"Environmental Tech","department":"Business Development","image":"https://randomuser.me/api/portraits/men/6.jpg"},
+{"id":2,"firstName":"Nicky","lastName":"Crolla","email":"ncrolla1@mozilla.org","phone":"784-325-2496","title":"Assistant Media Planner","department":"Research and Development","image":"https://randomuser.me/api/portraits/men/7.jpg"},
+{"id":3,"firstName":"Lesli","lastName":"Ingerman","email":"lingerman2@vimeo.com","phone":"962-721-7264","title":"Sales Representative","department":"Marketing","image":"https://randomuser.me/api/portraits/women/6.jpg"},
+{"id":4,"firstName":"Milzie","lastName":"Bumby","email":"mbumby3@techcrunch.com","phone":"838-887-8823","title":"Payment Adjustment Coordinator","department":"Engineering","image":"https://randomuser.me/api/portraits/women/2.jpg"},
+{"id":5,"firstName":"Brandise","lastName":"Bolf","email":"bbolf4@salon.com","phone":"826-438-3841","title":"Operator","department":"Support","image":"https://randomuser.me/api/portraits/men/76.jpg"},
+{"id":6,"firstName":"Dalli","lastName":"Pirt","email":"dpirt5@privacy.gov.au","phone":"901-755-5004","title":"Physical Therapy Assistant","department":"Business Development","image":"https://randomuser.me/api/portraits/women/3.jpg"},
+{"id":7,"firstName":"Martelle","lastName":"Courtois","email":"mcourtois6@typepad.com","phone":"976-806-5457","title":"Social Worker","department":"Research and Development","image":"https://randomuser.me/api/portraits/women/4.jpg"},
+{"id":8,"firstName":"Cordi","lastName":"O'Dowgaine","email":"codowgaine7@adobe.com","phone":"890-993-2738","title":"Structural Engineer","department":"Support","image":"https://randomuser.me/api/portraits/women/13.jpg"},
+{"id":9,"firstName":"Felipa","lastName":"Rakestraw","email":"frakestraw8@thetimes.co.uk","phone":"151-578-0228","title":"Graphic Designer","department":"Accounting","image":"https://randomuser.me/api/portraits/men/8.jpg"},
+{"id":10,"firstName":"Ulberto","lastName":"Yarnley","email":"uyarnley9@elegantthemes.com","phone":"794-250-2666","title":"Cost Accountant","department":"Engineering","image":"https://randomuser.me/api/portraits/women/32.jpg"},
+{"id":11,"firstName":"Claiborne","lastName":"Dessent","email":"cdessenta@ucoz.ru","phone":"223-826-3308","title":"Legal Assistant","department":"Accounting","image":"https://randomuser.me/api/portraits/men/71.jpg"},
+{"id":12,"firstName":"Benedikta","lastName":"Kleinschmidt","email":"bkleinschmidtb@aol.com","phone":"204-560-8706","title":"Environmental Tech","department":"Marketing","image":"https://randomuser.me/api/portraits/women/4.jpg"}
+]
+}

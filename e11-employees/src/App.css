@@ -1,0 +1,71 @@
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #f9f8f5;
+  margin: 0;
+  padding: 2rem;
+  color: #5E4421;
+}
+
+.EmployeeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.Employee {
+  background-color: #fffdf8;
+  border: 1px solid #e3e1d7;
+  border-left: 5px solid #A9B065;
+  border-radius: 12px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(94, 68, 33, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.Employee:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 14px rgba(94, 68, 33, 0.12);
+}
+
+.Employee img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #A9B065;
+  margin-bottom: 0.6rem;
+}
+
+.Employee h4 {
+  margin: 0.3rem 0 0.15rem 0;
+  font-weight: 600;
+  color: #5E4421;
+  font-size: 0.95rem;
+}
+
+.Employee p {
+  margin: 0.15rem 0;
+  font-size: 0.85rem;
+  color: #7a6b4b;
+}
+
+.Employee a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #A9B065;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.Employee a:hover {
+  text-decoration: underline;
+  color: #5E4421;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #5E4421;
+  letter-spacing: 1px;
+}
